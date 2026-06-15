@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⏰ Digital Clock
 
 A modern and responsive **Digital Clock** built using **HTML, CSS, and JavaScript**. This project displays the current time in real-time with a beautiful glassmorphism interface, dynamic greetings, and date display.
@@ -96,3 +97,7 @@ GitHub: https://github.com/kothurisaiteja
 ---
 
 ⭐ If you found this project useful, consider giving it a star!
+=======
+# Digital-clock
+A responsive digital clock built using HTML, CSS, and JavaScript featuring real-time updates, date display, dynamic greetings, and a modern glassmorphism UI.
+>>>>>>> 9beaa87aa22363290e8721632dc47156359f1a74
