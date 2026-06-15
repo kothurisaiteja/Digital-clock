@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-image: url("assets/BackGround.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#ClockContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#ClockBox{
+    text-align: center;
+    padding: 30px 40px;
+    border-radius: 20px;
+
+    /* Glassmorphism */
+    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.1);
+
+    /* Border */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    /* Shadow */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+#Greeting{
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+#Date{
+    color: white;
+    font-size: 1.3rem;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 0 0 8px rgba(255,255,255,0.2);
+}
+
+#Clock{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 6.5rem;
+    text-align: center;
+
+    text-shadow:
+        0 0 10px rgba(255,255,255,0.5),
+        0 0 20px rgba(255,255,255,0.3);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px){
+
+    #Clock{
+        font-size: 3rem;
+    }
+
+    #Greeting{
+        font-size: 1.4rem;
+    }
+
+    #Date{
+        font-size: 1rem;
+    }
+
+    #ClockBox{
+        width: 90%;
+        padding: 20px;
+    }
+}
