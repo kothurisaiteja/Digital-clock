@@ -95,7 +95,7 @@ https://kothurisaiteja.github.io/digital-clock/
 GitHub: https://github.com/kothurisaiteja
 
 ---
-
+last updated june 2026
 ⭐ If you found this project useful, consider giving it a star!
 =======
 # Digital-clock
